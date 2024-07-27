@@ -43,28 +43,28 @@ const walk3: IsValidWalkDataType[] = [
   "e",
 ]; // False
 
-// TEST 1
-console.log("TEST 1 =", isValidWalk(walk1)); // true
-console.log("TEST 1 =", isValidWalk(walk2)); // true
-console.log("TEST 1 =", isValidWalk(walk3)); // false
+// TASK 1
+console.log("TASK 1 =", isValidWalk(walk1)); // true
+console.log("TASK 1 =", isValidWalk(walk2)); // true
+console.log("TASK 1 =", isValidWalk(walk3)); // false
 
-// TEST 2
-console.log("TEST 2 =", getRemainder(17, 5)); // Output: 2
-console.log("TEST 2 =", getRemainder(13, 72)); // Output: 7
-console.log("TEST 2 =", getRemainder(0, -1)); // Output: 0
-console.log("TEST 2 =", getRemainder(0, 1)); // Output: 0
-console.log("TEST 2 =", getRemainder(1, 0)); // Output: "NaN"
-console.log("TEST 2 =", getRemainder(0, 0)); // Output: "NaN"
+// TASK 2
+console.log("TASK 2 =", getRemainder(17, 5)); // Output: 2
+console.log("TASK 2 =", getRemainder(13, 72)); // Output: 7
+console.log("TASK 2 =", getRemainder(0, -1)); // Output: 0
+console.log("TASK 2 =", getRemainder(0, 1)); // Output: 0
+console.log("TASK 2 =", getRemainder(1, 0)); // Output: "NaN"
+console.log("TASK 2 =", getRemainder(0, 0)); // Output: "NaN"
 
-// TEST 3
-console.log("TEST 2 =", combineLetters("aa", "bb", "cc")); // Output: "abcabc"
-console.log("TEST 2 =", combineLetters("xyz", "123", "abc")); // Output: "x1ay2b3zc"
+// TASK 3
+console.log("TASK 2 =", combineLetters("aa", "bb", "cc")); // Output: "abcabc"
+console.log("TASK 2 =", combineLetters("xyz", "123", "abc")); // Output: "x1ay2b3zc"
 
-// TEST 4
-console.log("TEST 4 =", generateAcronym("Thomas Meyer")); // Output: TM
-console.log("TEST 4 =", generateAcronym("martin schmidt")); // Output: MS
-console.log("TEST 4 =", generateAcronym("Jan-Erich Schmidt")); // Output: JES
-console.log("TEST 4 =", generateAcronym("Jan Erich Mueller")); // Output: JEM
-console.log("TEST 4 =", generateAcronym("Paul Meyer-Schmidt")); // Output: PMS
-console.log("TEST 4 =", generateAcronym("Paul von Lahnstein")); // Output: PvL
-console.log("TEST 4 =", generateAcronym("Martin von Lahnstein-Meyer")); // Output: MvLM
+// TASK 4
+console.log("TASK 4 =", generateAcronym("Thomas Meyer")); // Output: TM
+console.log("TASK 4 =", generateAcronym("martin schmidt")); // Output: MS
+console.log("TASK 4 =", generateAcronym("Jan-Erich Schmidt")); // Output: JES
+console.log("TASK 4 =", generateAcronym("Jan Erich Mueller")); // Output: JEM
+console.log("TASK 4 =", generateAcronym("Paul Meyer-Schmidt")); // Output: PMS
+console.log("TASK 4 =", generateAcronym("Paul von Lahnstein")); // Output: PvL
+console.log("TASK 4 =", generateAcronym("Martin von Lahnstein-Meyer")); // Output: MvLM
